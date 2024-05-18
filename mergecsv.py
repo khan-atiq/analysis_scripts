@@ -8,6 +8,7 @@ df_b = pd.read_csv('./UntitledspreadsheetSheet2.csv')  # Assuming file_b.csv con
 merged_df = pd.merge(df_a, df_b, on='Name', how='inner')
 
 #tst2
+#tst3
 
 # Print the merged DataFrame with only the "name" and "phone number" columns
 print(merged_df[['Name', 'Phone']])
